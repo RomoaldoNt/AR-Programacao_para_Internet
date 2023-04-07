@@ -1,0 +1,120 @@
+/* Estilos para a página */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #5baa96;
+	
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+    color: #082c01;
+}
+h2{
+	text-align: center;
+	margin-top: 30px;
+    color: #020d72;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+	background-color: #040952;
+	color: #2b2121;
+	overflow: hidden;
+}
+
+.navbar a {
+	float: left;
+	color: #73c6df;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #63dbdb;
+	color: #333;
+}
+
+/* Estilos para a tabela de produtos */
+.table {
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+.table th, .table td {
+	padding: 12px 15px;
+	text-align: left;
+	border: 1px solid hsla(138, 42%, 22%, 0.445);
+}
+
+.table th {
+	background-color: #033d31;
+	color: #000000;
+}
+/* Estilo para o formulário */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(10, 9, 9, 0.3);
+}
+
+/* Estilo para as labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Estilo para os inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão de cadastro */
+button[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #050505;
+  color: #159108;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Estilo para o link de login */
+p a {
+  color: #867069;
+  text-decoration: none;
+}
+
+/* Estilo para o link de login ao passar o mouse */
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para o formulário */
+form {
+ max-width: 400px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #549658ad;
+ border-radius: 5px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
